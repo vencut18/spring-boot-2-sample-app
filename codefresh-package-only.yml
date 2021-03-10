@@ -11,7 +11,7 @@ steps:
     type: git-clone
     repo: 'vencut18/spring-boot-2-sample-app'
     revision: master
-    git: Github
+    git: "vencut18"
   run_unit_tests:
     title: Compile/Unit test
     stage: test
