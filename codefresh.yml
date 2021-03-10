@@ -22,7 +22,7 @@ steps:
     title: Building Docker Image
     type: build
     stage: build
-    image_name: spring-boot-2-sample-app
+    image_name: vencut18/spring-boot-2-sample-app
     working_directory: ./
     tag: 'multi-stage'
     dockerfile: Dockerfile
